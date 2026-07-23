@@ -62,8 +62,3 @@ pricing, Black–Scholes risk sensitivities and dynamic Delta hedging.
 - `02_monte_carlo_option_pricing.ipynb`
 - `03_black_scholes_greeks.ipynb`
 - `04_dynamic_delta_hedging.ipynb`
-## Notebooks
-
-- `01_gbm_simulation.ipynb`
-- `02_monte_carlo_option_pricing.ipynb`
-- `03_black_scholes_greeks.ipynb`
