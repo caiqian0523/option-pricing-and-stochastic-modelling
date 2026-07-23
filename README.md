@@ -1,7 +1,7 @@
 # Option Pricing and Stochastic Modelling
 
 A Python project exploring geometric Brownian motion, Monte Carlo option
-pricing and Black–Scholes risk sensitivities.
+pricing, Black–Scholes risk sensitivities and dynamic Delta hedging.
 
 ## Contents
 
@@ -26,6 +26,15 @@ pricing and Black–Scholes risk sensitivities.
 - Validates analytical Greeks using central finite differences
 - Examines truncation and floating-point errors across step sizes
 
+### 4. Dynamic Delta Hedging
+
+- Constructs a self-financing replicating portfolio
+- Simulates discrete Delta hedging along individual price paths
+- Tracks stock, cash and portfolio positions using pandas
+- Compares monthly, weekly and daily rebalancing
+- Analyses the distribution of terminal hedging errors
+- Demonstrates an approximate inverse-square-root convergence rate
+
 ## Methods
 
 - Geometric Brownian motion
@@ -33,6 +42,8 @@ pricing and Black–Scholes risk sensitivities.
 - Monte Carlo simulation
 - Black–Scholes model
 - Option Greeks
+- Dynamic Delta hedging
+- Self-financing portfolios
 - Central finite differences
 - Convergence and numerical error analysis
 
@@ -40,10 +51,17 @@ pricing and Black–Scholes risk sensitivities.
 
 - Python
 - NumPy
+- pandas
 - Matplotlib
 - SciPy
 - Jupyter Notebook
 
+## Notebooks
+
+- `01_gbm_simulation.ipynb`
+- `02_monte_carlo_option_pricing.ipynb`
+- `03_black_scholes_greeks.ipynb`
+- `04_dynamic_delta_hedging.ipynb`
 ## Notebooks
 
 - `01_gbm_simulation.ipynb`
